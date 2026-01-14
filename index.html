@@ -13,6 +13,7 @@
         rel="stylesheet">
              <!-- font osam  -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+           <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="work-sans">
@@ -39,14 +40,14 @@
             </h1>
             <p class="banner-diskison">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
             <button class="btn-primary btn-color-pri">Explore More</button>
-           </div>
+           </div data-aos="zoom-out"  >
             <img class="banner-img" src="./images/banner.png" alt="">
             
         </div>
     </header>
     <main>
          <section class="temas">
-             <div class="team-img-container">
+             <div data-aos="zoom-in" class="team-img-container">
                   <img src="./images/team1.png" alt="to architect discussing">
                   <img src="./images/team2.png" alt="to architect discussing">
                   <img src="./images/team3.png" alt="to architect discussing">
@@ -69,15 +70,18 @@
                         <h4>Dexktop & Mobile Version</h4>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
-                    <div class="maye-card-lorem">
+                    <div data-aos="fade-up"
+     data-aos-duration="3000" class="maye-card-lorem">
                         <h4>Dexktop & Mobile Version</h4>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
-                    <div class="maye-card-lorem">
+                    <div data-aos="fade-up"
+     data-aos-duration="3000" class="maye-card-lorem">
                         <h4>Dexktop & Mobile Version</h4>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
-                    <div class="maye-card-lorem">
+                    <div data-aos="fade-up"
+     data-aos-duration="3000" class="maye-card-lorem">
                         <h4>Dexktop & Mobile Version</h4>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
                     </div>
@@ -135,6 +139,10 @@
             <p>All rights reserved copyright@2023 startup landing page design</p>
            </div>
     </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
