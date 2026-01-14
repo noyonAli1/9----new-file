@@ -28,7 +28,8 @@
 .main-back-color {
     background-color: lab(84.34% 6.64 19.59);
 }
-.nav-menu-icon{
+
+.nav-menu-icon {
     display: none;
 }
 
@@ -66,7 +67,7 @@ ul>li>a {
     padding: 20px 25px;
     font-size: 1.25rem;
     border: none;
-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .banner-content {
@@ -84,109 +85,128 @@ border-radius: 8px;
     background-clip: text;
     color: transparent;
 }
-.banner-diskison{
+
+.banner-diskison {
     font-size: 1rem;
     font-weight: 400;
 }
+
 .btn-primary {
     margin-bottom: 50px;
     border: none;
     margin-top: 20px;
     border-radius: 8px;
 }
-.banner-img{
+
+.banner-img {
     width: 100%;
 }
 
 /* responsive media query */
 
-@media screen and  (max-width:576px){
-    .nav-menu-icon{
+@media screen and (max-width:576px) {
+    .nav-menu-icon {
         display: block;
         font-size: 20px;
         color: rgb(2, 38, 70);
     }
-    .nav-menu{
+
+    .nav-menu {
         display: none;
     }
-    .navber .main-containe-width{
+
+    .navber .main-containe-width {
         width: 100%;
     }
-    .banner-img img{
-    width: 100%;
-}
+
+    .banner-img img {
+        width: 100%;
+    }
 }
 
 /* ...... */
-main{
+main {
     max-width: 1240px;
     margin: 0 auto;
 }
-.temas{
+
+.temas {
     display: flex;
     align-items: center;
     gap: 50px;
     padding: 80px 0 130px 0;
 }
-.team-img-container{
+
+.team-img-container {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.feature-tatle{
+
+.feature-tatle {
     font-size: 3rem;
 }
-.color-first{
+
+.color-first {
     color: #FF900E;
 }
-.feature-div{
+
+.feature-div {
     font-size: 1rem;
     line-height: 20px;
     padding: 8px 0;
     color: #727272;
 }
-.padding-div{
+
+.padding-div {
     margin-top: 20px;
 }
-.guick{
-   color: #727272; 
+
+.guick {
+    color: #727272;
 }
-.bold-of{
+
+.bold-of {
     font-weight: 900;
 }
-@media screen and  (max-width:576px){
-    .temas{
+
+@media screen and (max-width:576px) {
+    .temas {
         flex-direction: column;
     }
-    .team-img-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .you-fircuage{
+
+    .you-fircuage {
         margin-left: 15px;
     }
 }
-@media screen and (min-width:576px)  and (max-width:992px){
 
-}
+@media screen and (min-width:576px) and (max-width:992px) {}
 
 /* third section */
 
 
-.some{
+.some {
     font-size: 3rem;
     font-weight: 700;
 }
-.width-p{
-   max-width: 542px;
-   padding: 5px 0 20px 0;
-   color: #727272;
+
+.width-p {
+    max-width: 542px;
+    padding: 5px 0 20px 0;
+    color: #727272;
 }
-.facts-container{
+
+.facts-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    
+    grid-template-columns: repeat(4, 1fr);
+
 }
-.fact{
+
+.fact {
     border: 1px solid #f2d5c7;
     width: 240px;
     height: 240px;
@@ -196,68 +216,80 @@ main{
     align-items: center;
     text-align: center;
 }
-.number{
+
+.number {
     font-size: 2.8rem;
     font-weight: 600;
     margin: 5px 0 10px 0;
 }
-.port-col{
+
+.port-col {
     font-size: 1.2rem;
     color: #727272;
     margin-top: 10px;
 }
-.some{
+
+.some {
     color: rgb(246, 156, 12);
 }
-@media screen and  (max-width:576px){
-    .facts-container{
-    grid-template-columns: repeat(1,1fr);
-    justify-items: center;  
-    gap: 30px; 
-}
-.card-container{
-    margin: 0 auto;
-}
-.card-container{
-    text-align: center;
-}
+
+@media screen and (max-width:576px) {
+    .facts-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 30px;
+    }
+
+    .card-container {
+        margin: 0 auto;
+    }
+
+    .card-container {
+        text-align: center;
+    }
 
 }
 
-.mate-card-container{
+.mate-card-container {
     display: flex;
     gap: 100px;
 }
-.maye-card{
+
+.maye-card {
     font-size: 2.5rem;
     font-weight: 700;
     border-left: 5px solid rgb(232, 194, 4);
     padding-left: 30px;
     margin-bottom: 20px;
 }
-.maye-p{
+
+.maye-p {
     font-size: 1rem;
     line-height: 26px;
     margin-bottom: 30px;
     color: #727272;
 }
-.maye-card-lorem{
+
+.maye-card-lorem {
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 1px 2px 4px 2px rgb(165, 157, 157);
 }
-.maye-card-lorem h4{
+
+.maye-card-lorem h4 {
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.maye-card-lorem p{
+
+.maye-card-lorem p {
     font-size: 1rem;
     color: #727272;
     line-height: 23px;
 }
-.button-btn{
+
+.button-btn {
     padding: 20px 40px;
     background-color: #FF900E;
     color: aliceblue;
@@ -266,8 +298,9 @@ main{
     margin-top: -100px;
     margin-left: -50px;
 }
-.button-btn h2{
-  font-size: 2rem;
+
+.button-btn h2 {
+    font-size: 2rem;
 }
 
 
@@ -278,38 +311,66 @@ main{
 }
 } */
 
-@media screen and (max-width:576px){
-    .mate-card-container{
+@media screen and (max-width:576px) {
+    .mate-card-container {
         flex-direction: column;
         gap: 40px;
         margin: 0 auto;
     }
-    .max-card{
+
+    .max-card {
         width: 95%;
         margin: auto;
     }
-    .max-card img{
+
+    .max-card img {
         width: 100%;
-      
+
     }
-    .main-div-maye{
+
+    .main-div-maye {
         text-align: center;
     }
-    .button-btn{
-    padding: 20px 40px;
-    background-color: #FF900E;
-    color: aliceblue;
+
+    .button-btn {
+        padding: 20px 40px;
+        background-color: #FF900E;
+        color: aliceblue;
+        border-radius: 5px;
+        border: none;
+        margin-top: -10px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+
+    .maye-card {
+        font-size: 2.5rem;
+        font-weight: 700;
+        padding-left: 30px;
+        margin-bottom: 20px;
+        color: rgb(5, 191, 129);
+    }
+    .footri-main{
+        width: 90%;
+    }
+
+   
+    .main-footer  p{
+    font-size:0.7rem;
+}
+}
+
+
+footer{
+    width: 65%;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    margin-top: 100px;
     border-radius: 5px;
-    border: none;
-    margin-top: -10px;
-    margin-left: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
-.maye-card{
-    font-size: 2.5rem;
-    font-weight: 700;
-    padding-left: 30px;
-    margin-bottom: 20px;
-    color: rgb(5, 191, 129);
-}
+
+.main-footer {
+    text-align: center;
+    padding: 20px 0;
 }
